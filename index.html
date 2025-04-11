@@ -19,8 +19,9 @@
   </head>
   <body>
     <script type="module">
-      import * as THREE from './node_modules/three/build/three.module.js';
-      import { GLTFLoader } from './node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+      // Import Three.js and GLTFLoader from the local "libs" folder
+      import * as THREE from './libs/three.module.js';
+      import { GLTFLoader } from './libs/GLTFLoader.js';
 
       let camera, scene, renderer, controller;
       let reticle, model;
